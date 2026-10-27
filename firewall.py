@@ -1,4 +1,19 @@
 import random
+import pyfiglet
+
+name = "JANGOTRA"
+print ("=" * 60)
+
+ban = pyfiglet.figlet_format(
+    name,
+    font="slant"
+)
+
+print("\033[96m" + ban + "\033[0m")
+print("=" * 60)
+print("       Block IP Addresees")
+print("=" * 60)
+print("Date : 27/10/2026\n")
 
 def check_rule(ip_address, block_ip):
 
